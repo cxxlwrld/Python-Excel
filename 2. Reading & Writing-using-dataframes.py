@@ -9,5 +9,5 @@ df.to_excel('./states.xlsx', sheet_name='States', index=False)
 
 # reading data from an existing xlsx file
 
-states = pd.read_excel('./states.xlsx')
+states = pd.read_excel('./states.xlsx', sheet_name='States')
 print(states.head())
